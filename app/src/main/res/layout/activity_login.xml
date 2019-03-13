@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical"
+    tools:context=".activities.LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/image" />
+            <EditText
+                android:id="@+id/edittextemaillogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+
+                android:hint="البريد الالكترونى"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/edittextpasswordlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="كلمة السر"
+
+                android:inputType="textPersonName" />
+
+
+            <Button
+                android:id="@+id/buttonforget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/buttonforget"
+                android:text="هل نسيت كلمة السر ؟"
+                android:textColor="#000000"
+                android:onClick="Forget"
+                />
+            <Button
+                android:id="@+id/buttonlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="12dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/buttonstyle"
+                android:text="تسجيل الدخول"
+                android:textColor="#FFFAFA"
+                android:onClick="btnlog"
+                />
+            <Button
+                android:id="@+id/buttoncreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/buttonstyle"
+                android:text="إنشاء حساب"
+                android:textColor="#FFFAFA"
+                android:onClick="btncreate"
+
+                />
+            <Button
+                android:id="@+id/buttonskip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/buttonstylelskip"
+                android:text="تخطى الأن"
+                android:textColor="#000000"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

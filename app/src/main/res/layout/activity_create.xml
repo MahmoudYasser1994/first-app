@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:orientation="vertical"
+    tools:context=".activities.CreateActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:orientation="vertical" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:layout_marginBottom="8dp"
+                android:src="@drawable/image" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="اسم المستخدم"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="البريد الالكترونى"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="رقم الهاتف"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="كلمة المرور"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginBottom="40dp"
+                android:background="@drawable/edittextstyle"
+                android:ems="10"
+                android:hint="تأكيد كلمة المرور"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/buttonstyle"
+                android:text="إنشاء الحساب"
+                android:textColor="#FFFAFA" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
